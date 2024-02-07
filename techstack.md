@@ -20,6 +20,7 @@ stackshareiodev/ad_dify is built on the following main stack:
 - [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
 - [NumPy](http://www.numpy.org/) – Data Science Tools
 - [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
+- [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
 - [Babel](http://babeljs.io/) – JavaScript Compilers
 - [Matplotlib](http://matplotlib.org) – Charting Libraries
 - [ESLint](http://eslint.org/) – Code Review
@@ -64,6 +65,7 @@ stackshareiodev/ad_dify is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/1839/q5uAkmy7.png' alt='SQLAlchemy'/> [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
 - <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'/> [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/2516/original.png' alt='Heroku Postgres'/> [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
 - <img width='25' height='25' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'/> [Matplotlib](http://matplotlib.org) – Charting Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
@@ -92,7 +94,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [stackshareiodev/ad_dify](https://github.com/stackshareiodev/ad_dify)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|76<br/>Tools used|02/06/24 <br/>Report generated|
+|76<br/>Tools used|02/07/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -226,12 +228,20 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/databases.svg'/> Data (5)
+## <img src='https://img.stackshare.io/databases.svg'/> Data (6)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/11593/no-img.png' alt='DB'>
   <br>
   <sub><a href="https://github.com/infostreams/db">DB</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2516/original.png' alt='Heroku Postgres'>
+  <br>
+  <sub><a href="https://www.heroku.com/postgres">Heroku Postgres</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -382,7 +392,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## Other (10)
+## Other (9)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3633/ZBMmmvP1_400x400.jpg' alt='Base'>
@@ -417,14 +427,6 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/6102/3846050.png' alt='Postgres Teleport'>
-  <br>
-  <sub><a href="https://github.com/pagarme/teleport">Postgres Teleport</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/145167/default_1afbd43be06ce7171e9e4364a6fe1fd28fa8d9ee.png' alt='VikingPic'>
   <br>
   <sub><a href="https://www.vikingpic.com/">VikingPic</a></sub>
@@ -448,9 +450,7 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/4747/default_82286a88bf01c80539ebd1d6dbea1b25df8af16d.png' alt='i18next'>
   <br>
   <sub><a href="https://www.i18next.com/">i18next</a></sub>
@@ -458,7 +458,9 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/10577/11071.jpeg' alt='lint-staged'>
   <br>
   <sub><a href="https://github.com/okonet/lint-staged">lint-staged</a></sub>
