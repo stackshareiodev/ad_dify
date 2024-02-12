@@ -1,8 +1,8 @@
 repo_name: stackshareiodev/ad_dify
-report_id: ba92259008e0c979ce5b7bddbcec9f34
+report_id: 944a823d5f60ce346ff307fb85354e25
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-09T13:20:03+00:00'
+timestamp: '2024-02-12T10:37:52+00:00'
 requested_by: leslie2046
 provider: github
 branch: main
@@ -74,7 +74,7 @@ tools:
   detection_source_url: https://github.com/stackshareiodev/ad_dify
   detection_source: Repo Metadata
 - name: Swift
-  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
   website_url: https://developer.apple.com/swift/
   license: Apache-2.0
   open_source: true
