@@ -13,6 +13,7 @@ stackshareiodev/ad_dify is built on the following main stack:
 - [Matplotlib](http://matplotlib.org) – Charting Libraries
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [DB](https://github.com/infostreams/db) – Database Tools
+- [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
 - [PostgreSQL](http://www.postgresql.org/) – Databases
 - [Redis](http://redis.io/) – In-Memory Databases
 - [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
@@ -46,6 +47,7 @@ stackshareiodev/ad_dify is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'/> [Matplotlib](http://matplotlib.org) – Charting Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/11593/no-img.png' alt='DB'/> [DB](https://github.com/infostreams/db) – Database Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2516/original.png' alt='Heroku Postgres'/> [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1839/q5uAkmy7.png' alt='SQLAlchemy'/> [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
@@ -70,7 +72,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [stackshareiodev/ad_dify](https://github.com/stackshareiodev/ad_dify)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|30<br/>Tools used|02/14/24 <br/>Report generated|
+|30<br/>Tools used|02/15/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -164,12 +166,20 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/databases.svg'/> Data (5)
+## <img src='https://img.stackshare.io/databases.svg'/> Data (6)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/11593/no-img.png' alt='DB'>
   <br>
   <sub><a href="https://github.com/infostreams/db">DB</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2516/original.png' alt='Heroku Postgres'>
+  <br>
+  <sub><a href="https://www.heroku.com/postgres">Heroku Postgres</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -278,7 +288,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## Other (6)
+## Other (5)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3633/ZBMmmvP1_400x400.jpg' alt='Base'>
@@ -308,14 +318,6 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'>
   <br>
   <sub><a href="http://www.numpy.org/">NumPy</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/6102/3846050.png' alt='Postgres Teleport'>
-  <br>
-  <sub><a href="https://github.com/pagarme/teleport">Postgres Teleport</a></sub>
   <br>
   <sub></sub>
 </td>
