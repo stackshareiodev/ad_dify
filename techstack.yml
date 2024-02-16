@@ -1,8 +1,8 @@
 repo_name: stackshareiodev/ad_dify
-report_id: 2e61b2c1965701f8fe9a33c3cc7038da
+report_id: 10828abd8a7588ad893a5a32aba5c202
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-15T10:59:18+00:00'
+timestamp: '2024-02-16T10:42:37+00:00'
 requested_by: leslie2046
 provider: github
 branch: main
@@ -136,19 +136,6 @@ tools:
   detection_source: docker/docker-compose.yaml
   last_updated_by: John Wang
   last_updated_on: 2023-05-15 00:51:32.000000000 Z
-- name: Heroku Postgres
-  description: Heroku's Database-as-a-Service. Based on the most powerful open-source
-    database, PostgreSQL
-  website_url: https://www.heroku.com/postgres
-  open_source: false
-  hosted_saas: true
-  category: Data Stores
-  sub_category: PostgreSQL as a Service
-  image_url: https://img.stackshare.io/service/2516/original.png
-  detection_source_url: https://github.com/stackshareiodev/ad_dify/blob/main/docker/docker-compose.yaml
-  detection_source: docker/docker-compose.yaml
-  last_updated_by: takatost
-  last_updated_on: 2023-12-24 07:43:43.000000000 Z
 - name: PostgreSQL
   description: A powerful, open source object-relational database system
   website_url: http://www.postgresql.org/
@@ -346,6 +333,15 @@ tools:
   detection_source: api/requirements.txt
   last_updated_by: John Wang
   last_updated_on: 2023-05-15 00:51:32.000000000 Z
+- name: Postgres Teleport
+  website_url: https://github.com/pagarme/teleport
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6102/3846050.png
+  detection_source_url: https://github.com/stackshareiodev/ad_dify/blob/main/docker/docker-compose.yaml
+  detection_source: docker/docker-compose.yaml
+  last_updated_by: takatost
+  last_updated_on: 2023-12-24 07:43:43.000000000 Z
 - name: VikingPic
   description: Transform yourself into a viking using AI
   website_url: https://www.vikingpic.com/
